@@ -16,9 +16,22 @@
         <h1>Weather Dashboard</h1>
     </header>
     <main>
-        <h1 id="cityname"></h1>
-        <input type="text" name="" id="search">
-        <button id="searchBtn">Search</button> <!--Search button-->
+        <section class="searchArea">
+            <h1>Search For A City:</h1>
+            <input type="text" name="" id="search">
+            <button id="searchBtn">Search</button> <!--Search button-->
+        </section>
+        <section class="weatherArea">
+            <div class="currentWeather">
+                <h1 id="cityname"></h1>
+                <p id="temp"></p>
+                <p id="wind"></p>
+                <p id="humidity"></p>
+            </div>
+            <div class="forcast">
+                <p id "t"></p>
+            </div>
+        </section>
     </main>
     <script src="./assets/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
